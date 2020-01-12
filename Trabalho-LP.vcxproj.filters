@@ -18,11 +18,25 @@
     <ClCompile Include="Trabalho-LP.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Product.c">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utarray.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Wharehouse.c">
+    </ClInclude>
+    <ClInclude Include="uthash.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="utlist.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utringbuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utstack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utstring.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

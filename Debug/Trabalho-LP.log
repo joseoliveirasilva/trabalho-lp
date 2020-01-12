@@ -1,6 +1,6 @@
 ﻿  Trabalho-LP.c
-C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Trabalho-LP.c(51,28): warning C4474: 'scanf_s' : too many arguments passed for format string
-C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Trabalho-LP.c(51,28): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
-C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Trabalho-LP.c(76,10): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
-C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Trabalho-LP.c(55,20): warning C4101: 'DbWharehouse': unreferenced local variable
+C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Trabalho-LP.c(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Trabalho-LP.c(112,28): warning C4474: 'scanf_s' : too many arguments passed for format string
+C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Trabalho-LP.c(112,28): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Trabalho-LP.c(329,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
   Trabalho-LP.vcxproj -> C:\Users\joseoliveira.silva\source\repos\Trabalho-LP\Debug\Trabalho-LP.exe
