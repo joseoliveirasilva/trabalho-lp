@@ -106,6 +106,8 @@ int main()
 
 	printf("  9. List All 'produtos que é preciso emitir uma encomenda'\n");
 
+	printf("  10. 'Dar baixa de um produto'\n");
+
 	printf("  0. Exit Program\n");
 	printf("Option:");
 
@@ -349,6 +351,12 @@ int main()
 			}
 		}
 
+		return main();
+
+	case 10:
+		// TODO
+		printf("'Dar baixa de um produto'\n");
+		printf("TODO....\n");
 		return main();
 
 		// EXIT
