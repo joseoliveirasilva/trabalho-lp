@@ -108,6 +108,8 @@ int main()
 
 	printf("  10. 'Dar baixa de um produto'\n");
 
+	printf("  11. SAVE\n");
+
 	printf("  0. Exit Program\n");
 	printf("Option:");
 
@@ -357,6 +359,34 @@ int main()
 		// TODO
 		printf("'Dar baixa de um produto'\n");
 		printf("TODO....\n");
+		return main();
+
+	case 11:
+		// TODO
+		printf("SAVE\n");
+
+		FILE* fptr;
+
+		printf("Saving Products... ");
+
+		if ((fptr = fopen("C:\\Users\\joseoliveira.silva\\source\\repos\\Trabalho-LP\\\products.csv", "w")) != NULL)		
+		{
+			fprintf(fptr, "Product Id;Name;Price;Min Stock\n");
+
+			struct Product* pw;
+			for (pw = HashProducts; pw != NULL; pw = (struct Product*)(pw->hh.next))
+			{
+				fprintf(fptr, "%d;%s;%d;%d\n", pw->id, pw->Name, pw->Price, pw->MinimumStockQuantity);
+			}
+
+			fclose(fptr);
+		}
+
+		printf("OK\n");
+
+
+		// TODO ... fazer o mesmo para os Wharehouses
+
 		return main();
 
 		// EXIT
